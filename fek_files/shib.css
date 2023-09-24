@@ -1,0 +1,76 @@
+body {
+  background: #eaeff2;
+  font-size: 10pt;
+}
+
+.header-logo {
+  display: block;
+  width: 200px;
+  height: 110px;
+  background: url('/idp/images/zcu-logo-white.svg') no-repeat left center;
+  background-size: 178px;
+}
+
+.logo-cs {
+  background: url('/idp/images/zcu-logo-white.svg') no-repeat left center;
+  background-size: 178px;
+}
+
+.logo-en {
+  background: url('/idp/images/zcu-logo-white-en.svg') no-repeat left center;
+  background-size: 178px;
+}
+
+@media only screen and (max-width: 650px) {
+  .header-logo {
+    background: url('/idp/images/zcu-logo-white-sm.svg') no-repeat left center;
+    background-size: auto;
+  }
+}
+
+.attributes-release {
+  overflow-x: auto;
+}
+
+.attributes-release td strong {
+  font-size: 10pt;
+}
+
+.attributes-release table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attributes-release td {
+  padding: 8px 5px;
+}
+
+.attributes-release tr td:first-of-type {
+  min-width: 160px;
+}
+
+.attributes-release tr:nth-of-type(2n) td, .attributes-release tr:hover td {
+  background: #eaeff2;
+}
+
+.footer {
+  font-size: 14px;
+  margin-bottom: 10px;
+  background: #eaeff2;
+}
+
+.footer small {
+  font-size: 11px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer small {
+    display: block;
+    max-width: 250px;
+    margin: auto;
+  }
+}
+
+.footer small a {
+  font-weight: 700;
+}
